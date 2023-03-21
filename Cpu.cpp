@@ -181,7 +181,7 @@ void Cpu::op_bne(Instruction instruction)
 
 	if (reg(s) != reg(t))
 	{
-		//branch(i);
+		branch(i);
 		std::cout << "Branch taken";
 	}
 }
